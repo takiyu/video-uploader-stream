@@ -130,7 +130,7 @@ var VideoUI = React.createClass({
         console.log("Sending loop");
         that.uploadImg();
         that.onReset();
-        setTimeout(loop, 5000);
+        setTimeout(loop, 60000);
       }
       setTimeout(loop, 5000);
     },
